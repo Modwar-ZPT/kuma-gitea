@@ -1,0 +1,10 @@
+[2024-11-11 20:09:04] Error [ERR_SERVER_NOT_RUNNING]: Server is not running.
+    at new NodeError (node:internal/errors:405:5)
+    at Server.close (node:net:2155:12)
+    at Object.onceWrapper (node:events:631:28)
+    at Server.emit (node:events:529:35)
+    at Server.<anonymous> (/usr/local/lib/node_modules/pm2/node_modules/@pm2/io/build/main/metrics/httpMetrics.js:153:37)
+    at emitCloseNT (node:net:2215:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21) {
+  code: 'ERR_SERVER_NOT_RUNNING'
+}
